@@ -1,4 +1,34 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "Hey :3"
+languageCode = "zh-HK"
+title = "Raki的人型犬空間"
 theme = "m10c"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+
+[params]
+    author = "Raki"
+    description = "我是狗狗。我叫Raki。喜歡人型犬、貞操帶、束縛控制，以及各式各樣的殊異興趣。"
+
+    [[params.social]]
+        name = "facebook"
+        url = "https://www.facebook.com/pupraki"
+
+    [[params.social]]
+        name = "twitter"
+        url = "https://twitter.com/PupRaki"
+
+    [params.style]
+        darkestColor = "#36454f" # charcoal
+        darkColor = "#212121"
+        primaryColor = "#ffffff"
+        lightColor = "#a2a2a2"
+        lightestColor = "#d3d3d3"
