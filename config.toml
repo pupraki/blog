@@ -1,7 +1,8 @@
-baseURL = "http://example.org/"
+baseURL = "https://pupraki.github.io/blog"
 languageCode = "zh-HK"
 title = "Raki的人型犬空間"
 theme = "m10c"
+publishDir = "docs"
 
 [menu]
   [[menu.main]]
