@@ -10,7 +10,7 @@
             {{ .PublishDate.Format "Jan 2, 2006" }}
             -
             {{ partial "icon.html" (dict "ctx" $ "name" "book") }}
-            {{ .WordCount }} words
+            {{ .WordCount }}字
           </span>
         </li>
       {{ end }}
